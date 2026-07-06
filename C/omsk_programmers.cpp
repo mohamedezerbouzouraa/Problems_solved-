@@ -7,8 +7,7 @@ using namespace std;
 long long pm(long long x, long long a) {
     long long i = 0;
     while ((long long)pow(x, i) <= a) i++;
-    return i - 1;
-}
+    return i - 1;}
 
 int main() {
     int t;
